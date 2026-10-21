@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Build Cinema System",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-static",
+        "Source/main.cpp",
+        "Source/Movie.cpp",
+        "Source/Screen.cpp",
+        "Source/Customer.cpp",
+        "Source/Ticket.cpp",
+        "Source/FileManager.cpp",
+        "Source/Cinema.cpp",
+        "-o",
+        "Executable/Project.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "type": "shell",
+      "label": "Run Cinema System",
+      "command": ".\\Executable\\Project.exe",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

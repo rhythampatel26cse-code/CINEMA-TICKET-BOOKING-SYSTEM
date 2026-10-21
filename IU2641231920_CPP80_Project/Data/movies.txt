@@ -1,0 +1,4 @@
+101|Interstellar Odyssey|Sci-Fi|169|PG-13|14.5
+102|Shadows of Gotham|Action|140|PG-13|13
+103|The Enchanted Forest|Animation|102|U|10
+104|Midnight Echoes|Thriller|125|R|12.5

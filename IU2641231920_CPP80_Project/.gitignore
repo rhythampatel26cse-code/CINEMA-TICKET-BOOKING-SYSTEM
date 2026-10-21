@@ -1,0 +1,22 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Debug and symbol files
+*.pdb
+*.ilk
+
+# Temporary and log files
+*.tmp
+*.log
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# VS Code personal settings
+.vscode/.browse.*
+.vscode/ipch/
